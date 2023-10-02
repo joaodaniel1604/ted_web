@@ -123,3 +123,10 @@ window.addEventListener('load', function () {
     exibirOpcoes(pratosPrincipais, 'pratoPrincipal');
     exibirOpcoes(sobremesas, 'sobremesa');
 });
+
+const botaoFinalizarCompra = document.getElementById('finalizar-compra');
+
+botaoFinalizarCompra.addEventListener('click', function () {
+    const precoTotal = calcularPrecoTotal();
+    alert(`Você está prestes a finalizar a compra com um total de R$ ${precoTotal}.`);
+});
