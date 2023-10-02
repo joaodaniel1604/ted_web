@@ -144,3 +144,26 @@ button:hover {
 .prato-final button:hover {
     background-color: #c0392b;
 }
+
+
+.finalizar-compra-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  #finalizar-compra {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #finalizar-compra:hover {
+    background-color: darkgreen;
+  }
